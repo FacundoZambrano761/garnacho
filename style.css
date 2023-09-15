@@ -95,10 +95,14 @@ body {
 .btn-72 {
   width: 100%;
 }
-.href {
-  width: 100%;
-}
+
 img {
   width: 150px;
   text-align: center center;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
 }
