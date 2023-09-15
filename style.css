@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 body {
@@ -105,4 +106,19 @@ a {
 }
 h1 {
   font-family: 'Pacifico', cursive;
+}
+@media (max-width: 828px){
+  img {
+    width: 40%;
+    text-align: center;
+  };
+  .wrapper {
+    width: 240px;
+  };
+  .input-box {
+    width: 90%;
+  };
+  .btn-72 {
+    width: 90%;
+  }
 }
